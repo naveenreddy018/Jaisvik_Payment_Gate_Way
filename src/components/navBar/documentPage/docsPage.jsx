@@ -1,11 +1,14 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "../../Footer/paymentFooter";
-
+import { Nav} from 'react-bootstrap';
 const JasivikAPIIntegrationDoc = () => {
     return (
         <>
             <Container className="mt-5 p-5" >
+                <Nav.Link href="/checkoutpage" className="fw-medium mt-5 text-primary ">
+               View checkOutPage
+              </Nav.Link>
                 <Row className="my-5">
                     <Col>
                         <h1 className="mb-4">Jasivik Payment Gateway API Integration Guide</h1>

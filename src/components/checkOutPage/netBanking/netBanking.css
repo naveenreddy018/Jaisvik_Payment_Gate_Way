@@ -1,0 +1,35 @@
+.popular-banks-wrapper {
+    padding: 1rem;
+}
+
+.popular-banks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0.75rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.bank-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.bank-option .form-check-input {
+    margin-right: 0.5rem;
+}
+
+.bank-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 0.5rem;
+}
+
+.bank-label {
+    font-size: 0.95rem;
+    color: black;
+    font-weight: 600;
+}

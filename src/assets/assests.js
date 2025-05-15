@@ -29,19 +29,29 @@ import security from "./security.png"
 import aboutLogo from "./aboutlogo.jpg"
 import contact from "./contactSales.avif"
 import jaisvik from "./jaisvik_logo.png"
-
-
-
+import kotakIcon from "./kotak.png"
+import FederalIcon from "./federal.png"
+import blogImage1 from "./blogImage1.webp"
+import blogvideo1 from "./blogvideo.mp4"  
+import qrcode from "./qrcode.png"
+import googlePay from "./google.jpeg"
+import phonePay from "./phonepay.png"
+import bhim from "./bhim.png"
 const assets = {
 
     jaisvikAccepts,
     netBanking,
+     kotakIcon,
     upi_id,
+    googlePay ,
+    phonePay,
     cardspayments,
     masterIcon,
+    bhim,
     visaIcon,
     sbiIcon,
     iciciIcon,
+    qrcode,
     hdfcIcon,
     unionIcon,
     AxisIcon,
@@ -64,7 +74,10 @@ const assets = {
     security,
     aboutLogo,
     contact,
-    jaisvik
+    jaisvik,
+    FederalIcon ,
+    blogImage1 ,
+    blogvideo1
 }
 
 export default assets

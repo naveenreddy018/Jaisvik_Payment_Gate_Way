@@ -22,7 +22,7 @@ const PaymentGatewayPromoSmall = () => {
             <div className="text-center mb-3">
               <h6 className="fw-semibold text-primary">Transaction Fee: </h6>
               <div className="d-flex justify-content-center align-items-baseline mt-1">
-                <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1e293b' }}>1.5%</span>
+                <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1e293b' }}>2%</span>
                 <div className="ms-2">
                   <p className="mb-0 small">Platform Charges</p>
                   <BsInfoCircle className="text-muted mt-1" />

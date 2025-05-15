@@ -48,7 +48,7 @@ order = client.order.create({
 })
 print(order)`,
 
-        Java: `RazorpayClient  JAISVIKPAY = new JAISVIKPAYClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+        Java: `JAISVIKPAYClient  JAISVIKPAY = new JAISVIKPAYClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
 
 JSONObject orderRequest = new JSONObject();
 orderRequest.put("amount", 500);
